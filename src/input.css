@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer components{
+    :root{
+        --ownc1:#EEEEEE; /* body bg */
+        --ownc1-1:#e4e4e4; /* body bg */
+        --ownc2:#00ADB5;  
+        --ownc3:#393E46; 
+       --ownc4:#222831; /*text */
+      }
+    .ownc1{
+        color: var(--ownc1);
+    }
+      .bg-ownc2{
+        background-color: var(--ownc2);
+    }
+    .ownc2{
+        color: var(--ownc2);
+    }
+}
