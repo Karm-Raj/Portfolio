@@ -56,13 +56,19 @@ background: linear-gradient(0deg, rgba(20,204,205,1) 0%, rgba(228,228,228,1) 100
     color: var(--ownc2);
     transition: all 0.3s ease-in-out;
 }
-#home-cont{
+#home-cont {
     background-color: var(--ownc2-1);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.about-cont{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: var(--ownc2-1);
+
 }
 #home-body{
     background-color: var(--ownc2-2);
 }
+
 
 header{
 

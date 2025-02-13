@@ -17,4 +17,26 @@
     .ownc2{
         color: var(--ownc2);
     }
+
+    .section-h{
+        @apply text-center mt-8 text-3xl;
+    }
+.bottom-line{
+    
+        position: relative;
+  }
+  .bottom-line:before {
+          content: "";
+          position: absolute;
+          width:100%;
+          height: 3px;
+          border-radius: 4px;
+          background-color: var(--ownc2);
+          bottom: -5px;
+          left: -20%;
+  }
+  .rating-g{
+    @apply mt-5;
+  }
+
 }
