@@ -11,6 +11,9 @@
     .ownc1{
         color: var(--ownc1);
     }
+    .bg-ownc1{
+        background-color: var(--ownc1);
+    }
       .bg-ownc2{
         background-color: var(--ownc2);
     }
@@ -34,9 +37,20 @@
           background-color: var(--ownc2);
           bottom: -5px;
           left: -20%;
+        }
+  .bottom-line-c:before {
+    background-color: var(--ownc1);
+
   }
   .rating-g{
     @apply mt-5;
   }
-
+  .transi{
+    transition: all 0.5s ease-in-out;
+  }
+  .go-to-top{
+    bottom: 2em;
+    right: 3em;
+  }
+  
 }
